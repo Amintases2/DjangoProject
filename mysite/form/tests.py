@@ -34,7 +34,7 @@ class TestForm(TestCase):
         self.assertEqual(response.content, b'QuestionCreateForm')
 
     def test_request4(self):
-        # не одна из форм не подходит
+        # ни одна из форм не подходит
         data = {
             'contact_phone': '+7 111 111 11 11',
             'user_name': 'TestName',
